@@ -1,4 +1,4 @@
-const kittens = ["Milo", "Otis", "Garfield"]
+var kittens = ["Milo", "Otis", "Garfield"]
 var name = "Ralph"
 var name2 = "Bob"
 var name3 = "Broom"
