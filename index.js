@@ -4,19 +4,19 @@ var name2 = "Bob"
 var name3 = "Broom"
 var name4 = "Arnold"
 
-function destructivelyAppendKitten(kittens, name){
+function destructivelyAppendKitten(name){
     kittens.push(name)
 }
 
-function destructivelyPrependKitten(kittens, name2){
+function destructivelyPrependKitten(name2){
   kittens.unshift(name2)
 }
 
-function destructivelyRemoveLastKitten(kittens){
+function destructivelyRemoveLastKitten(){
   kittens.pop()
 }
 
-function destructivelyRemoveFirstKitten(kittens){
+function destructivelyRemoveFirstKitten(){
   kittens.shift()
 }
 
